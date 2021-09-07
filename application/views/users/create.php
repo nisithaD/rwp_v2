@@ -6,11 +6,11 @@
     <section class="content-header">
       <h1>
         Manage
-        <small>Users</small>
+        <small>Employees</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Users</li>
+        <li class="active">Employees</li>
       </ol>
     </section>
 
@@ -34,7 +34,7 @@
 
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Add User</h3>
+              <h3 class="box-title">Add Employee</h3>
             </div>
             <form role="form" action="<?php base_url('users/create') ?>" method="post">
               <div class="box-body">
@@ -63,7 +63,7 @@
 
                 <div class="form-group">
                   <label for="password">Password</label>
-                  <input type="text" class="form-control" id="password" name="password" placeholder="Password" autocomplete="off">
+                  <input type="password" class="form-control" id="password" name="password" placeholder="Password" autocomplete="off">
                 </div>
 
                 <div class="form-group">

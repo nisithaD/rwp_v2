@@ -49,6 +49,7 @@ class Users extends Admin_Controller
 		$this->form_validation->set_rules('email', 'Email', 'trim|required|is_unique[users.email]');
 		$this->form_validation->set_rules('password', 'Password', 'trim|required|min_length[8]');
 		$this->form_validation->set_rules('cpassword', 'Confirm password', 'trim|required|matches[password]');
+        $this->form_validation->set_rules('phone', 'Phone', 'required|min_length[10]|max_length[10]');
 		$this->form_validation->set_rules('fname', 'First name', 'trim|required');
 
         if ($this->form_validation->run() == TRUE) {
