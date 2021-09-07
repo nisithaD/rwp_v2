@@ -1,6 +1,6 @@
 <header class="main-header">
     <!-- Logo -->
-    <a href="http://localhost/stock-v2/dashboard" class="logo">
+    <a href="https://isuruapparel.beginnerme.com/dashboard" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>IA</b></span>
       <!-- logo for regular state and mobile devices -->
