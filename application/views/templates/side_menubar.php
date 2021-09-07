@@ -6,7 +6,7 @@
       <ul class="sidebar-menu" data-widget="tree">
         
         <li id="dashboardMainMenu">
-          <a href="<?php echo base_url('dashboard') ?>">
+          <a href="<?php echo ('/dashboard') ?>">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
           </a>
         </li>
