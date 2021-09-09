@@ -60,6 +60,9 @@
                     </button>
                 </div>
             </form>
+            <div>
+                <h3>Hello</h3>
+            </div>
 
             <div class="login100-more" style="background-image: url('<?php echo base_url('assets/public/images/bg-01.jpg')?>');">
             </div>
