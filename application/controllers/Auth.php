@@ -25,7 +25,7 @@ class Auth extends Admin_Controller
         $this->form_validation->set_rules('password', 'Password', 'required');
 
         if ($this->form_validation->run() == TRUE) {
-            // true case
+            // true wunama
            	$email_exists = $this->model_auth->check_email($this->input->post('email'));
 
            	if($email_exists == TRUE) {

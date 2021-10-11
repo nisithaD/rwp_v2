@@ -6,11 +6,11 @@
     <section class="content-header">
       <h1>
         Manage
-        <small>Users</small>
+        <small>Employees</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Users</li>
+        <li class="active">Employees</li>
       </ol>
     </section>
 
@@ -33,7 +33,7 @@
           <?php endif; ?>
           
           <?php if(in_array('createUser', $user_permission)): ?>
-            <a href="<?php echo base_url('users/create') ?>" class="btn btn-primary">Add User</a>
+            <a href="<?php echo base_url('users/create') ?>" class="btn btn-primary">Add Employees</a>
             <br /> <br />
           <?php endif; ?>
 

@@ -67,12 +67,12 @@
 
                 <div class="form-group">
                   <label for="price">Price</label>
-                  <input type="text" class="form-control" id="price" name="price" placeholder="Enter price" autocomplete="off" />
+                  <input type="number" class="form-control" id="price" name="price" placeholder="Enter price" autocomplete="off" />
                 </div>
 
                 <div class="form-group">
                   <label for="qty">Qty</label>
-                  <input type="text" class="form-control" id="qty" name="qty" placeholder="Enter Qty" autocomplete="off" />
+                  <input type="number" class="form-control" id="qty" name="qty" placeholder="Enter Qty" autocomplete="off" />
                 </div>
 
                 <div class="form-group">

@@ -57,21 +57,24 @@
                   <div class="form-group">
                     <label for="gross_amount" class="col-sm-5 control-label" style="text-align:left;">Customer Name</label>
                     <div class="col-sm-7">
-                      <input type="text" class="form-control" id="customer_name" name="customer_name" placeholder="Enter Customer Name" autocomplete="off" />
+                      <input type="text" required class="form-control" id="customer_name" name="customer_name" placeholder="Enter Customer Name" autocomplete="off" />
                     </div>
                   </div>
 
                   <div class="form-group">
                     <label for="gross_amount" class="col-sm-5 control-label" style="text-align:left;">Customer Address</label>
                     <div class="col-sm-7">
-                      <input type="text" class="form-control" id="customer_address" name="customer_address" placeholder="Enter Customer Address" autocomplete="off">
+                      <input type="text" required class="form-control" id="customer_address" name="customer_address" placeholder="Enter Customer Address" autocomplete="off">
                     </div>
                   </div>
 
                   <div class="form-group">
                     <label for="gross_amount" class="col-sm-5 control-label" style="text-align:left;">Customer Phone</label>
                     <div class="col-sm-7">
-                      <input type="text" class="form-control" id="customer_phone" name="customer_phone" placeholder="Enter Customer Phone" autocomplete="off">
+                      <input type="tel" class="form-control" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="customer_phone"  name="customer_phone" placeholder="Format: 123-456-7890" autocomplete="off" required>
+                       <br />
+
+                        <small >Format: 123-456-7890</small>
                     </div>
                   </div>
                 </div>
@@ -99,7 +102,7 @@
                             <?php endforeach ?>
                           </select>
                         </td>
-                        <td><input type="text" name="qty[]" id="qty_1" class="form-control" required onkeyup="getTotal(1)"></td>
+                        <td><input type="text"  name="qty[]" id="qty_1" class="form-control" required onkeyup="getTotal(1)"></td>
                         <td>
                           <input type="text" name="rate[]" id="rate_1" class="form-control" disabled autocomplete="off">
                           <input type="hidden" name="rate_value[]" id="rate_value_1" class="form-control" autocomplete="off">
